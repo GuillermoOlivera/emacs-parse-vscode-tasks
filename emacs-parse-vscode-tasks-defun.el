@@ -1,5 +1,5 @@
 (defun god-parse-tasks-json (filepath-tasksjson)
-    (interactive "sEnter Json file: ")
+    (interactive "FEnter Json file: ")
     (require 'json)
     (setq tasks ())
     (let* ((json-object-type 'hash-table)
